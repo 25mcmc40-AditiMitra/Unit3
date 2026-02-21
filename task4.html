@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Catalog - Task 4</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- External JS file -->
+    <script src="task4.js" defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+
+<h2>Book Catalog</h2>
+
+<label>Genre:</label>
+<select id="genreFilter">
+    <option value="all">All</option>
+</select>
+
+<label>Author:</label>
+<select id="authorFilter">
+    <option value="all">All</option>
+</select>
+
+<label>Price:</label>
+<select id="priceFilter">
+    <option value="all">All</option>
+    <option value="0-400">Below 400</option>
+    <option value="400-600">400 - 600</option>
+    <option value="600-1000">Above 600</option>
+</select>
+
+<br><br>
+
+<table id="bookTable">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Publication Date</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+</body>
+</html>
