@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Bobby Fischer Teaches Chess</title>
+        <author>Bobby Fischer</author>
+        <genre>Chess</genre>
+        <price>250</price>
+        <publication_date>1972-07-01</publication_date>
+    </book>
+
+    <book>
+        <title>The Psychology of Money</title>
+        <author>Morgan Housel</author>
+        <genre>Finance</genre>
+        <price>399</price>
+        <publication_date>2020-10-08</publication_date>
+    </book>
+
+    <book>
+        <title>The Laws Of Human Nature</title>
+        <author>Robert Greene</author>
+        <genre>Psychology</genre>
+        <price>650</price>
+        <publication_date>2018-10-23</publication_date>
+    </book>
+
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>550</price>
+        <publication_date>1997-06-26</publication_date>
+    </book>
+
+</catalog>
