@@ -5,7 +5,7 @@ $(document).ready(function(){
     // Load XML file using AJAX
     $.ajax({
         type: "GET",
-        url: "task4.xml",
+        url: "task8.xml",
         dataType: "xml",
         success: function(xml){
 
@@ -89,3 +89,4 @@ $("#genreFilter, #authorFilter, #priceFilter").change(function(){
 
     displayBooks(filtered);
 });
+
