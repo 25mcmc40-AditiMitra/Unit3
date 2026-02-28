@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.tab-links {
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tab-links a {
+    padding: 8px 15px;
+    background: lightgray;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.active-tab {
+    background: steelblue;
+    color: white !important;
+}
+
+.tab-panel {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
