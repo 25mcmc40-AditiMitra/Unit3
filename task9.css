@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 250px;
+    padding: 5px;
+}
+
+button {
+    padding: 8px 15px;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
