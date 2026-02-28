@@ -1,0 +1,30 @@
+{
+  "formTitle": "Registration Form",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Full Name",
+      "id": "name",
+      "required": true
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "id": "email",
+      "required": true
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "id": "password",
+      "required": true
+    },
+    {
+      "type": "select",
+      "label": "Country",
+      "id": "country",
+      "options": ["India", "USA", "Canada"],
+      "required": true
+    }
+  ]
+}
